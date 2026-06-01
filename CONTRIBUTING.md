@@ -1,36 +1,46 @@
-# Contributing Guidelines
+# Contributing
 
-Thanks for helping make this the best list of free design resources on GitHub! 🎨
+Thanks for wanting to add a resource. Keep it simple — open a Pull Request editing `README.md` (and `free-design-resources-notion.csv` if you can).
 
-## How to add a resource
+## Criteria
 
-1. **Fork** this repository.
-2. Find the **right category** in `README.md` (or propose a new one if none fits).
-3. Add a new row to that category's table, following the exact format:
+A resource must be:
 
-   ```markdown
-   | [Resource Name](https://example.com) | One short, factual sentence describing it. |
-   ```
+1. **Free** — fully free, free-with-attribution, or with a genuinely useful free tier. Note the catch in the description if relevant.
+2. **Live and maintained** — the link works and the tool/site is still active.
+3. **Useful to a general audience** — not a niche personal page, dead project, or thin wrapper.
+4. **Fits an existing category** — Icons, Design Inspiration, Stock Photos, Illustrations, UI Kits & Design Files, Free Fonts, Color Tools, CSS & UI Generators, AI Design Tools, Learning & Blogs, 3D Assets, Mockups, Design & Prototyping Tools, Patterns/Textures, Typography Tools, Gradients, Sound & Audio, Accessibility, Stock Videos, Design Systems, Lottie & Animations, Image Optimization, Logo & Branding, Browser Extensions, Shapes/SVG, Podcasts & YouTube, Wireframing, Email Design, Presentations, or Newsletters. Don't invent a new category without opening an issue first.
 
-4. Open a **Pull Request** with a clear title, e.g. `Add: Fontshare to Free Fonts`.
+## Format
 
-## Rules
+Add the resource at the end of the most relevant category table. Use this format:
 
-- ✅ The resource must be **genuinely free** (free, free-with-attribution, or a real freemium plan). Note the catch in the description if relevant.
-- ✅ Keep descriptions **short, factual, and neutral** — no marketing fluff.
-- ✅ Make sure the link **works** and points to the canonical homepage.
-- ✅ Avoid **duplicates** — search before adding.
-- ❌ No paywalled-only tools, affiliate links, referral codes, or SEO spam.
-- ❌ No NSFW or low-quality content.
+```
+| <next #> | [Resource Name](https://example.com) | One-line description |
+```
 
-## Adding a new category
+- Keep descriptions under ~80 characters and **no trailing period** (unified style).
+- Lead with the function, not marketing language ("Free open-source icon set" beats "The best icons ever").
+- Use the official homepage URL — not a mirror or affiliate link.
 
-If you think a whole category is missing (e.g. "Fonts for Arabic", "Game UI assets"), open an issue first so we can agree on the name and placement before you submit the PR.
+If you can, add the same row to `free-design-resources-notion.csv` so the spreadsheet stays in sync.
 
-## Reporting dead links
+## Process
 
-Found a broken or dead link? Open an issue titled `Dead link: <name>` or submit a PR removing/replacing it.
+1. Fork the repo.
+2. Edit `README.md` (and the CSV if possible).
+3. Open a PR with a short justification — a link to the resource and one sentence on why it fits.
+4. One resource per PR (makes review easier).
+
+Removals (dead links, tools that went paid-only, license changes) are welcome too — same flow.
+
+## Not accepted
+
+- Paywalled-only tools with no real free tier.
+- Dead links or abandoned projects.
+- Affiliate links, referral codes, SEO spam, or self-promotion.
+- NSFW or low-quality content.
 
 ---
 
-By contributing, you agree that your contributions will be licensed under **CC0 1.0** (public domain), the same license as the project.
+By contributing, you agree that your contributions are released under **CC0 1.0** (public domain), the same license as this list.
