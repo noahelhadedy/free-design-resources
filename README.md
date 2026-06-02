@@ -511,6 +511,7 @@ The full list is also available as [`free-design-resources-notion.csv`](free-des
 | 334 | [Vectorizer.ai](https://vectorizer.ai) | Convert raster images to SVG with AI |
 | 335 | [Playground](https://playground.com) | Free AI image creation tool |
 | 336 | [Leonardo.ai](https://leonardo.ai) | AI art & asset generation (free tier) |
+| 337 | [TinyTools](https://tinytools-smoky.vercel.app/) | Free browser-based toolkit: AI background remover (runs fully locally, no upload), OG image generator, favicon generator, color palette generator, SEO meta tag generator — no signup |
 
 ### Logo & Branding
 
